@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Newsletter sign-up</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <!-- SECCION #1 -->
+  <section class="section" id="section">
+    <div class="section__info">
+      <!-- CONTENIDO DE TEXTO -->
+      <div class="section__text">
+        <h1 class="section__title">Stay updated!</h1>
+        <p class="section__paragraph">Join 60,000+ product managers receiving monthly updates on:</p>
+  
+        <figure class="section__figure">
+          <img src="/assets/images/icon-list.svg" alt="" class="section__list">
+          <p class="section__paragraph-icon">Product discovery and building what matters</p>
+        </figure>
+        <figure class="section__figure">
+          <img src="/assets/images/icon-list.svg" alt="" class="section__list">
+          <p class="section__paragraph-icon">Measuring to ensure updates are a success</p>
+        </figure>
+        <figure class="section__figure">
+          <img src="/assets/images/icon-list.svg" alt="" class="section__list">
+          <p class="section__paragraph-icon">And much more!</p>
+        </figure>
+      </div>
+      
+      <!-- FORMULARIO DE SUSCRIPCION -->
+      <form action="" class="form" id="formulario">
+        <div class="form-group">
+          <div id="error"></div>
+          <label for="email" class="label">Email address</label>
+          <input type="text" name="email" id="email__input" class="input" placeholder="email@company.com">
+        </div>
+        <button type="submit" class="cta" id="button-1">Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+
+    <!-- IMAGEN -->
+    <figure class="section__picture"></figure>
+  </section>
+
+  <!-- SECCION #2 -->
+  <section class="succes hide" id="succes">
+    <figure class="succes__picture">
+      <img src="/assets/images/icon-success.svg" class="succes__icon">
+    </figure>
+
+    <div class="succes__text">
+      <h class="succes__title">Thanks for subscribing!</h>
+      <p class="succes__paragraph">A confirmation email has been sent to <span>ash@loremcompany.com</span>. 
+        Please open it and click the button inside to confirm your subscription.</p>
+    </div>
+
+    <button class="cta succes__cta" id="button-2">Dismiss message</button>
+  </section>
+  
+  <script src="/js/index.js"></script>
+</body>
+</html>
